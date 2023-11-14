@@ -31,8 +31,8 @@
         "pear-horde/Horde_Socket_Client": "2.*"
     },
     "autoload": {
-        "psr-0": {
-            "Horde_Socket_Client": "lib/"
+        "psr-4": {
+            "Horde\\Socket\\": "lib/Horde/Socket"
         }
     }
 }
